@@ -1,0 +1,74 @@
+{
+  "dimensions": 2,
+  "field": {
+    "width": 960,
+    "height": 540
+  },
+  "durationMs": 650,
+  "fps": 60,
+  "loop": false,
+  "emitters": [
+    {
+      "name": "bore",
+      "shape": "point",
+      "position": [
+        480,
+        270,
+        0
+      ],
+      "extent": {
+        "radius": 0,
+        "size": [
+          0,
+          0,
+          0
+        ]
+      },
+      "emission": {
+        "mode": "burst",
+        "count": 90,
+        "atMs": 0
+      },
+      "lifetimeMs": 540,
+      "lifetimeSpread": 162.0,
+      "speed": 145,
+      "speedSpread": 79.75,
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "coneAngle": 180,
+      "forces": {
+        "gravity": -35,
+        "drag": 1
+      },
+      "particle": {
+        "sizeCurve": {
+          "interp": "linear",
+          "from": 1.8,
+          "to": 0.1
+        },
+        "opacityCurve": {
+          "interp": "linear",
+          "from": 1,
+          "to": 0
+        },
+        "colorGradient": [
+          {
+            "at": 0.0,
+            "color": "#fff9dc"
+          },
+          {
+            "at": 0.5,
+            "color": "#e7a969"
+          },
+          {
+            "at": 1.0,
+            "color": "#b54b42"
+          }
+        ]
+      }
+    }
+  ]
+}

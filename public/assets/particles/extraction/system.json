@@ -1,0 +1,74 @@
+{
+  "dimensions": 2,
+  "field": {
+    "width": 960,
+    "height": 540
+  },
+  "durationMs": 650,
+  "fps": 60,
+  "loop": false,
+  "emitters": [
+    {
+      "name": "extraction",
+      "shape": "point",
+      "position": [
+        480,
+        270,
+        0
+      ],
+      "extent": {
+        "radius": 0,
+        "size": [
+          0,
+          0,
+          0
+        ]
+      },
+      "emission": {
+        "mode": "burst",
+        "count": 42,
+        "atMs": 0
+      },
+      "lifetimeMs": 330,
+      "lifetimeSpread": 99.0,
+      "speed": 105,
+      "speedSpread": 57.75000000000001,
+      "direction": [
+        0,
+        1,
+        0
+      ],
+      "coneAngle": 180,
+      "forces": {
+        "gravity": 0,
+        "drag": 2
+      },
+      "particle": {
+        "sizeCurve": {
+          "interp": "linear",
+          "from": 1.8,
+          "to": 0.1
+        },
+        "opacityCurve": {
+          "interp": "linear",
+          "from": 1,
+          "to": 0
+        },
+        "colorGradient": [
+          {
+            "at": 0.0,
+            "color": "#ffffff"
+          },
+          {
+            "at": 0.5,
+            "color": "#9bece1"
+          },
+          {
+            "at": 1.0,
+            "color": "#e5b86d"
+          }
+        ]
+      }
+    }
+  ]
+}

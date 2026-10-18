@@ -1,0 +1,74 @@
+{
+  "dimensions": 2,
+  "field": {
+    "width": 960,
+    "height": 540
+  },
+  "durationMs": 650,
+  "fps": 60,
+  "loop": false,
+  "emitters": [
+    {
+      "name": "swallow",
+      "shape": "point",
+      "position": [
+        480,
+        270,
+        0
+      ],
+      "extent": {
+        "radius": 0,
+        "size": [
+          0,
+          0,
+          0
+        ]
+      },
+      "emission": {
+        "mode": "burst",
+        "count": 44,
+        "atMs": 0
+      },
+      "lifetimeMs": 430,
+      "lifetimeSpread": 129.0,
+      "speed": 70,
+      "speedSpread": 38.5,
+      "direction": [
+        0,
+        -1,
+        0
+      ],
+      "coneAngle": 65,
+      "forces": {
+        "gravity": 80,
+        "drag": 3
+      },
+      "particle": {
+        "sizeCurve": {
+          "interp": "linear",
+          "from": 1.8,
+          "to": 0.1
+        },
+        "opacityCurve": {
+          "interp": "linear",
+          "from": 1,
+          "to": 0
+        },
+        "colorGradient": [
+          {
+            "at": 0.0,
+            "color": "#ec9d65"
+          },
+          {
+            "at": 0.5,
+            "color": "#9b6c62"
+          },
+          {
+            "at": 1.0,
+            "color": "#39444b"
+          }
+        ]
+      }
+    }
+  ]
+}
